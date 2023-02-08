@@ -1,5 +1,15 @@
+@font-face {
+  font-family: "mongodb value serif";
+  src: url("%PUBLIC_URL%/fonts/mongodbvalueserif-regular.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: ".";
+  src: url("%PUBLIC_URL%/fonts/COLFAXAIREGULAR.ttf") format("truetype");
+}
 * {
   transition: 0.3s ease;
+  font-family: ".";
 }
 html,
 body,
@@ -19,7 +29,6 @@ body,
 }
 .header-row-links {
   font-weight: 600;
-  font-family: "helvetica new";
   letter-spacing: 0.5px;
 }
 .header-row-links * {
@@ -47,7 +56,6 @@ h1 {
   line-height: 1.7;
   font-weight: 700;
   text-shadow: 0.5px 0.5px 0.5px #04143a11;
-  font-family: "helvetica new";
   text-align: justify;
 }
 .footer {
@@ -65,7 +73,6 @@ h1 {
   border: none;
   font-size: 14px;
   font-weight: 600;
-  font-family: "helvetica new";
   letter-spacing: 0.5px;
   cursor: pointer;
   background-color: #eee;
@@ -78,7 +85,6 @@ h1 {
   padding: 15px 2px;
   font-size: 14px;
   font-weight: 600;
-  font-family: "helvetica new";
   border-top: 1px solid #bbb;
   letter-spacing: 0.5px;
 }
