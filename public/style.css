@@ -1,12 +1,14 @@
 @font-face {
   font-family: "mongodb value serif";
-  src: url("%PUBLIC_URL%/fonts/mongodbvalueserif-regular.ttf")
-    format("truetype");
+  src: url("./fonts/mongodbvalueserif-regular.ttf");
 }
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@font-face {
+  font-family: ".";
+  src: url("./fonts/dot.TTF");
+}
 * {
   transition: 0.3s ease;
-  font-family: "inter";
+  font-family: ".";
 }
 html,
 body,
@@ -49,7 +51,7 @@ h1 {
 .content {
   margin-top: 150px;
   font-size: 15px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.5px;
   line-height: 1.7;
   font-weight: 600;
   text-shadow: 0.5px 0.5px 0.5px #04143a11;
@@ -63,6 +65,21 @@ h1 {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
+}
+.content button {
+  background-color: #fff;
+  width: 100%;
+  outline: none;
+  font-size: 20px;
+  border-radius: 15px;
+  font-family: "mongodb value serif";
+  cursor: pointer;
+  font-weight: 100;
+  padding: 10px;
+  border: 0;
+}
+.content button:hover {
+  background-color: #eee;
 }
 .btns button {
   padding: 6px 12px;
