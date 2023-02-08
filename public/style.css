@@ -3,13 +3,10 @@
   src: url("%PUBLIC_URL%/fonts/mongodbvalueserif-regular.ttf")
     format("truetype");
 }
-@font-face {
-  font-family: ".";
-  src: url("%PUBLIC_URL%/fonts/COLFAXAIREGULAR.ttf") format("truetype");
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 * {
   transition: 0.3s ease;
-  font-family: ".";
+  font-family: "inter";
 }
 html,
 body,
@@ -52,9 +49,9 @@ h1 {
 .content {
   margin-top: 150px;
   font-size: 15px;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.2px;
   line-height: 1.7;
-  font-weight: 700;
+  font-weight: 600;
   text-shadow: 0.5px 0.5px 0.5px #04143a11;
   text-align: justify;
 }
